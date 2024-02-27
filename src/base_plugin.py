@@ -44,7 +44,7 @@ class base_plugin_Class(object):
         self.provider = None
 
     def initProcessing(self):
-        """Init Processing provider for QGIS >= 3.8."""
+        """Init Processing provider for QGIS >= 3.28."""
         self.provider = base_plugin_Provider_Class()
         QgsApplication.processingRegistry().addProvider(self.provider)
 
