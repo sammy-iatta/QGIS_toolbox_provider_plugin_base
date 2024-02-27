@@ -1,0 +1,51 @@
+;
+; Metadades del plugin.
+; Tota la informació sobre les metadades ve documentada a https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins/plugins.html
+;
+
+; ---------------------------------------------------------------------------
+; Secció obligatoria
+; ---------------------------------------------------------------------------
+[general]
+name=BASE_PLUGIN
+email=sammy.iatta@gmail.com
+author=Sammy
+qgisMinimumVersion=3.28
+description=Descripció de exemple del que fa el plugin.
+    Es permeten multilinia, nomès cal posar espais al davant.
+    No s'admet format HTML
+about=Més informació del plugin, autor, ...
+    També es permet multilinia, però no format HTML
+version=version 1.0
+tracker=https://www.nekofan.com
+repository=https://github.com/sammy-iatta/toolbox_provider_plugin_base
+; ---------------------------------------------------------------------------
+; Final secció obligatoria
+; ---------------------------------------------------------------------------
+
+; Secció de metadades opcionals
+category=Vector
+changelog=Log de canvis en les diferents versions.
+    Admet multilinia i format HTML
+    1.0 - First stable release
+    0.9 - All features implemented
+    0.1 - First testing release
+
+; Tags de recerca pel plugin. Poden haver-hi varis, separats per commes
+tags=wkt,raster,hello world
+
+; Pàgina del plugin, icona, ...
+homepage=https://github.com/sammy-iatta/toolbox_provider_plugin_base
+icon=icon.png
+
+; Es un plugin experimental o en fase de proves?
+experimental=True
+
+; deprecated flag (No tinc clar que és)
+deprecated=False
+
+; Màxima versió en que funcionarà el plugin
+qgisMaximumVersion=3.99
+
+; Dependencies del plugin, si ni han, amb els noms separats per commes
+plugin_dependencies=MyOtherPlugin==1.12,YetAnotherPlugin
