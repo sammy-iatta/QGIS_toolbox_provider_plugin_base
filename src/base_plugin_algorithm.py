@@ -30,8 +30,6 @@ from os import path
 
 from qgis.PyQt.QtGui import QIcon
 
-from qgis.PyQt.QtCore import QCoreApplication
-
 from qgis.core import (QgsProcessing,
                        QgsProcessingAlgorithm,
                        QgsProcessingParameterVectorLayer)
