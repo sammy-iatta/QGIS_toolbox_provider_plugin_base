@@ -33,19 +33,8 @@ from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtCore import QCoreApplication
 
 from qgis.core import (QgsProcessing,
-                       QgsProcessingUtils,
-                       QgsFeatureSink,
                        QgsProcessingAlgorithm,
-                       QgsProviderRegistry,
-                       QgsProcessingParameterFeatureSource,
-                       QgsProcessingParameterField,
-                       QgsProcessingParameterNumber,
-                       QgsProcessingParameterFeatureSink,
-                       QgsProcessingParameterVectorLayer,
-                       QgsVectorLayer,
-                       QgsProject)
-
-import processing
+                       QgsProcessingParameterVectorLayer)
 
 class base_plugin_Algorithm_Class(QgsProcessingAlgorithm):
     # Constants used to refer to parameters and outputs. They will be

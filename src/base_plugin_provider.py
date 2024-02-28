@@ -70,7 +70,7 @@ class base_plugin_Provider_Class(QgsProcessingProvider):
         per agrupar totes les funcions d'aquest proveidor.
         hauria de ser un string el més curt possible
         """
-        return self.tr('BASE PLUGIN - v1.0 -')
+        return 'BASE PLUGIN PROVIDER- v1.0 -'
 
     def icon(self):
         """
@@ -88,4 +88,4 @@ class base_plugin_Provider_Class(QgsProcessingProvider):
         (version 2.2.1)". This string should be localised. The default
         implementation returns the same string as name().
         """
-        return 'Càlculs tramer IAE'
+        return 'BASE PLUGIN PROVIDER by Sammy'
