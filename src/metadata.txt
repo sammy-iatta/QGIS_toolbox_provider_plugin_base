@@ -4,21 +4,21 @@
 ;
 
 ; ---------------------------------------------------------------------------
-; Secció obligatoria
+; Secció aconsellada (i algunes entrades són obligatories)
 ; ---------------------------------------------------------------------------
 [general]
 name=BASE_PLUGIN
+version=version 1.0
 email=sammy.iatta@gmail.com
 author=Sammy
 qgisMinimumVersion=3.28
+qgisMaximumVersion=3.99
 description=Descripció breu de exemple del que fa el plugin.
 about=Més informació del plugin, autor, ...
     Es permet multilinia, però no format HTML
-version=version 1.0
-tracker=https://www.nekofan.com
-repository=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base
+
 ; ---------------------------------------------------------------------------
-; Final secció obligatoria
+; Final secció aconsellada
 ; ---------------------------------------------------------------------------
 
 ; Secció de metadades opcionals
@@ -33,17 +33,14 @@ changelog=Log de canvis en les diferents versions.
 tags=wkt,raster,hello world
 
 ; Pàgina del plugin, icona, ...
-homepage=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base
+homepage=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base/README.md
+tracker=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base/issues
+repository=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base
 icon=icons/base_plugin_provider.svg
 
-; Es un plugin experimental o en fase de proves?
+; Es un plugin experimental o en fase de proves? Està obsolet?
 experimental=True
-
-; deprecated flag (No tinc clar que és)
 deprecated=False
-
-; Màxima versió en que funcionarà el plugin
-qgisMaximumVersion=3.99
 
 ; Dependencies del plugin, si ni han, amb els noms separats per commes
 ; plugin_dependencies=MyOtherPlugin==1.12,YetAnotherPlugin
