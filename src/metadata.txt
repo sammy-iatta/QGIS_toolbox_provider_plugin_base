@@ -33,7 +33,7 @@ changelog=Log de canvis en les diferents versions.
 tags=wkt,raster,hello world
 
 ; Pàgina del plugin, icona, ...
-homepage=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base/README.md
+homepage=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base/blob/main/README.md
 tracker=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base/issues
 repository=https://github.com/sammy-iatta/QGIS_toolbox_provider_plugin_base
 icon=icons/base_plugin_provider.svg
